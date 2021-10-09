@@ -6,3 +6,17 @@ p {
 font-family: 'myFirstFont';
 font-size: 64px;
 }
+p {
+  font-family: 'myFirstFont';
+  font-size: 64px;
+  animation: 2s shake infinite alternate;
+}
+
+@keyframes shake {
+  0% { transform: skewX(-15deg); }
+  1% { transform: skewX(15deg); }
+  2% { transform: skewX(-15deg); }
+  3% { transform: skewX(15deg); }
+  4% { transform: skewX(0deg); }
+  100% { transform: skewX(0deg); }  
+}
