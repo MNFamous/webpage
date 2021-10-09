@@ -2,7 +2,16 @@
   font-family: 'myFirstFont';
   src: url('rainyhearts.ttf');
 }
-p {
+.class1 p {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: white;
+  font-family: 'myFirstFont';
+  font-size: 64px;
+  animation: 2s shake infinite alternate;
+}
+.class2 p{
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #00001a;
   font-family: 'myFirstFont';
   font-size: 64px;
   animation: 2s shake infinite alternate;
